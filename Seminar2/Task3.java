@@ -7,8 +7,8 @@ public class Task3 {
         boolean flag = true;
         while (flag) {
 
-            System.out.println("Введите текст:");
-            try (Scanner scanner = new Scanner(System.in)) {
+                System.out.println("Введите текст:");
+                Scanner scanner = new Scanner(System.in);
                 String userString = scanner.nextLine();
 
                 try {
@@ -22,9 +22,9 @@ public class Task3 {
                         System.out.println("Обратите внимание, что пустые строки вводить нельзя");
                     }
 
-                }
             }
         }
     }
-    
 }
+    
+
